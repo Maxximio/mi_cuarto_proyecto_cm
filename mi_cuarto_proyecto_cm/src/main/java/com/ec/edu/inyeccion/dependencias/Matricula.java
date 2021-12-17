@@ -35,7 +35,7 @@ public class Matricula {
 		
 		this.estudiante.pagarServiPagos(nombre);
 		
-		return "El estudiante guardado con exito";
+		return "El estudiante se ha guardado con exito";
 	}
 
 	// Metodos SET y GET
