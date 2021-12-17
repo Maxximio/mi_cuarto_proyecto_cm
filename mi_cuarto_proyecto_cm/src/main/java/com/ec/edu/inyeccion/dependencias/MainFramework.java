@@ -9,7 +9,7 @@ public class MainFramework {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ingrese nombre: ");
+		System.out.println("ingrese su nombre: ");
 		String nombre = scanner.nextLine();
 		
 		System.out.println("ingrese apellido: ");
