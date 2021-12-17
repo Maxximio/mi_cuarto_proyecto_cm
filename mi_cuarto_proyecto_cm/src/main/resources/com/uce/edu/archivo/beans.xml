@@ -14,7 +14,7 @@
 		<property name="numero" value="23"></property>
 		<property name="saldo" value="0"></property>
 	</bean>
-<<<<<<< HEAD
+
 	<bean id="estu" class="com.ec.inyeccion.dependencias.framework.Estudiante"> 
 	<constructor-arg value="Edison"></constructor-arg>
 	<constructor-arg value="Ortiz"></constructor-arg>
@@ -56,5 +56,16 @@
 	</bean>
 
 >>>>>>> branch 'main' of https://github.com/miolkrok/mi_primer_proyecto_lo.git
+	<bean id="paciente" class="luis.ortiz.Paciente"> 
+	<property name="nombre" value="luis"></property>
+	<property name="apellido" value="ortiz"></property>
+	<property name="edad" value="18"></property>
+	</bean>
+	<bean id="profesor" class="luis.ortiz.Profesor">
+	<constructor-arg value="Edison"></constructor-arg>
+	<constructor-arg value="Ortiz"></constructor-arg>
+	<constructor-arg value="Arquitecto"></constructor-arg>
+	<constructor-arg value="Uce"></constructor-arg>
+	</bean>
 
 </beans>
