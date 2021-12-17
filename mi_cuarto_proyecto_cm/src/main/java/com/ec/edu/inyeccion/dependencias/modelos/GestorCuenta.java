@@ -12,7 +12,7 @@ public class GestorCuenta {
 	
 	public void registrarCuentaHabiente() {
 		this.cuenta.calcularBenieficio();
-		this.cuenta.calcularDescuento("343");
+		this.cuenta.calcularDescuento("3243");
 	}
 
 }
